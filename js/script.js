@@ -4,6 +4,10 @@ const hamb = document.querySelector('#hamb');
 const closeBut = document.querySelector('#closeBut');
 const body = document.body;
 
+const btnCall = document.querySelector('#btnCall').cloneNode(1);
+const btnReservation = document.querySelector('#btnReservation').cloneNode(1);
+
+
 hamb.addEventListener('click', hambHandler);
 closeBut.addEventListener('click', closeButHandler);
 
@@ -21,6 +25,8 @@ function hambHandler(e){
 
 function renderPopup(){
     popup.appendChild(menu);
+    popup.appendChild(btnCall);
+    popup.appendChild(btnReservation);
 }
 
 // const boxes = Array.from(document.querySelectorAll('.product__group'));
