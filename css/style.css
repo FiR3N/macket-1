@@ -445,7 +445,7 @@ p{
 }
 
 .restaraunt-img{
-    background-image: url('/img/bg-lamp.png');
+    background-image: url('../img/bg-lamp.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -645,7 +645,7 @@ p{
 }
 .reservation {
     position: relative;
-    background-image: url(/img/bg-email.png);
+    background-image: url(../img/bg-email.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
